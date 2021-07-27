@@ -1,0 +1,24 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    html {
+        font-size: 58%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    html {
+        font-size: 54%;
+    }
+
+    .section-home {
+        display: none;
+    }
+}
+
+@media (min-width: 0) and (max-width: 480px) {
+    html {
+        font-size: 50%;
+    }
+    .section-home {
+        display: none;
+    }
+}
